@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title>Signature Generator</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Dancing+Script&family=Great+Vibes&family=Satisfy&family=Lobster&family=Allura&family=Sacramento&family=Cookie&family=Alex+Brush&family=Playfair+Display&family=Pinyon+Script&family=Montserrat&family=Cinzel&family=Courgette&family=Amatic+SC&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <div class="signature-container">
@@ -12,9 +15,23 @@
         <p>Type your name to generate a signature</p>
         <input type="text" id="nameInput" placeholder="Enter your name here">
         <select id="fontSelector">
-            <option value=""></option>
-            <option value=""></option>
-            <option value=""></option>
+            <option value="'Pacifico', cursive">Pacifico</option>
+            <option value="Arial, sans-serif">Arial</option>
+            <option value="'Brush Script MT', cursive">Brush Script</option>
+            <option value="'Dancing Script', cursive">Dancing Script</option>
+            <option value="'Great Vibes', cursive">Great Vibes</option>
+            <option value="'Satisfy', cursive">Satisfy</option>
+            <option value="'Lobster', cursive">Lobster</option>
+            <option value="'Allura', cursive">Allura</option>
+            <option value="'Sacramento', cursive">Sacramento</option>
+            <option value="'Cookie', cursive">Cookie</option>
+            <option value="'Alex Brush', cursive">Alex Brush</option>
+            <option value="'Playfair Display', serif">Playfair Display</option>
+            <option value="'Pinyon Script', cursive">Pinyon Script</option>
+            <option value="'Montserrat', sans-serif">Montserrat</option>
+            <option value="'Cinzel', serif">Cinzel</option>
+            <option value="'Courgette', cursive">Courgette</option>
+            <option value="'Amatic SC', cursive">Amatic SC</option>
         </select>
         <div id="signature" class="signature-preview">Your Signature will display here</div>
         <button id="downloadButton">Download as a PNG</button>
